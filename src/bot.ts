@@ -1,5 +1,8 @@
 import TelegramBot from 'node-telegram-bot-api';
 import axios from 'axios';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 // Your API tokens
 const TELEGRAM_API_TOKEN = process.env.TELEGRAM_API_TOKEN as string;
